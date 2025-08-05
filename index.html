@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassen Zouzou - web developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="hassen.jpg" alt="hassen's picture" width="200" />
+      <h1>Hessen ZOUZOU</h1>
+      <p>web developer</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills" target="_blank">Skills</a>
+      <a href="#education" target="_blank">Education</a>
+      <a href="#contact" target="_blank">Contact</a>
+    </nav>
+
+    <main class="main-container">
+      <section id="about">
+        <h2>about me</h2>
+        <p>Hello I am Hassen <strong>web developer</strong></p>
+        <p>I study computer science and I love computers and softowars</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <table>
+          <tr>
+            <th>Skills</th>
+            <th>Level</th>
+            <th>Experienc</th>
+          </tr>
+          <tr>
+            <td><i class="fab fa-html5"></i> HTML</td>
+            <td>Good</td>
+            <td>6 months</td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-css3-alt"></i>CSS</td>
+            <td>medium</td>
+            <td>4 months</td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-js-square"></i>JavaScript</td>
+            <td>Beginner</td>
+            <td>month</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="projects">
+        <h2><i class="fas fa-laptop-code"></i>My Projects</h2>
+        <div class="projects-container">
+          <div class="prject-item">
+            <h3><i class="fas fa-globe"></i>Personal Website</h3>
+            <p>A responsive portfolio website showcasing my skill</p>
+            <div class="project-tech">HTML - CSS</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <h3>touggourt university</h3>
+        <p>computer science - 2025-2026</p>
+      </section>
+
+      <section id="contact">
+        <h2>contact</h2>
+        <p>you can contact me:</p>
+        <ul class="social-links">
+          <li>
+            <a href="mailto:hassen@gmail.com" target="_blank"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/hassen-zouzou" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/hassenzouzou" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+
+        <h3>Send me a message:</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 hassen zouzou</p>
+    </footer>
+  </body>
+</html>
