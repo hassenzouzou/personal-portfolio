@@ -1,51 +1,64 @@
-Hassen Zouzou - Personal Portfolio Website
-نظرة عامة
-موقع شخصي بسيط وأنيق لعرض المهارات والمشاريع والمعلومات الشخصية لمطور الويب حسن زوزو.
-المميزات
+# Hassen Zouzou - Personal Portfolio Website
 
-تصميم متجاوب - يعمل بشكل مثالي على جميع الأجهزة
-واجهة حديثة - تصميم نظيف مع تأثيرات بصرية جذابة
-أقسام متنوعة:
+## Overview
+A clean and modern personal portfolio website showcasing the skills, projects, and personal information of web developer Hassen Zouzou.
 
-نبذة شخصية
-المهارات والخبرات
-المشاريع
-التعليم
-نموذج اتصال
+## Features
+- **Responsive Design** - Works perfectly on all devices and screen sizes
+- **Modern UI/UX** - Clean design with attractive visual effects and animations
+- **Multiple Sections**:
+  - About Me
+  - Skills & Experience
+  - Projects Showcase
+  - Education
+  - Contact Form
 
+## Technologies Used
+- **HTML5** - Website structure and semantic markup
+- **CSS3** - Styling, animations, and responsive design
+- **Font Awesome** - Icons and visual elements
+- **CSS Grid & Flexbox** - Advanced layout system
 
+## Getting Started
+1. Ensure you have a profile image named `hassen.jpg` in the project directory
+2. Open `index.html` in your web browser
+3. Customize the personal information according to your needs
 
-التقنيات المستخدمة
+## Project Structure
+```
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet with all CSS rules
+└── hassen.jpg          # Profile picture (required)
+```
 
-HTML5 - هيكل الموقع
-CSS3 - التصميم والتنسيق
-Font Awesome - الأيقونات
-CSS Grid & Flexbox - التخطيط المتجاوب
+## Customization
+You can easily modify:
+- Personal information in `index.html`
+- Colors and design in `style.css`
+- Add new projects in the projects section
+- Update skills and experience levels
+- Modify contact information and social links
 
-كيفية الاستخدام
+## Browser Requirements
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection (for Font Awesome icons)
 
-تأكد من وجود صورة شخصية باسم hassen.jpg في نفس مجلد الملفات
-افتح index.html في المتصفح
-قم بتعديل المعلومات الشخصية حسب احتياجاتك
+## Features Breakdown
+- **Header Section**: Profile image, name, and title with gradient background
+- **Navigation**: Sticky navigation bar with smooth scrolling
+- **Skills Table**: Interactive table showing technical skills and experience
+- **Projects**: Showcase of completed projects with descriptions
+- **Contact Form**: Functional contact form with validation
+- **Social Links**: Direct links to email, LinkedIn, and GitHub
 
-الهيكل
-├── index.html          # الصفحة الرئيسية
-├── style.css           # ملف التنسيق
-└── hassen.jpg          # الصورة الشخصية
-التخصيص
-يمكنك تعديل:
+## Responsive Breakpoints
+- **Desktop**: 1024px and above
+- **Tablet**: 768px - 1023px
+- **Mobile**: 480px - 767px
+- **Small Mobile**: Below 480px
 
-المعلومات الشخصية في index.html
-الألوان والتصميم في style.css
-إضافة مشاريع جديدة في قسم المشاريع
-تحديث المهارات والخبرات
-
-المتطلبات
-
-متصفح ويب حديث
-اتصال بالإنترنت (لتحميل Font Awesome)
-
-الترخيص
+## License
 © 2025 Hassen Zouzou
 
-ملاحظة: هذا مشروع تعليمي لعرض المهارات الأساسية في تطوير الويب.
+---
+**Note**: This is an educational project demonstrating basic web development skills using HTML and CSS.
